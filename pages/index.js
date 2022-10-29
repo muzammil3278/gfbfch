@@ -4,7 +4,9 @@ export default function Blog({ posts }) {
   return (
     <ul>
       {posts.map((post) => (
-        <li>{post.body}</li>
+        <div key={post.id}>
+          <li>{post.body}</li>
+        </div>
       ))}
     </ul>
   )
