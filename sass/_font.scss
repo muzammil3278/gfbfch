@@ -1,0 +1,51 @@
+@each $fontweight in italic, normal, bolder, 300, 500, 700 {
+  .fw-#{$fontweight} {
+    font-weight: $fontweight;
+  }
+
+  @media (min-width: 576px) {
+    .fw-sm-#{$fontweight} {
+      font-weight: $fontweight;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .fw-md-#{$fontweight} {
+      font-weight: $fontweight;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .fw-lg-#{$fontweight} {
+      font-weight: $fontweight;
+    }
+  }
+}
+// font size
+$x: 2;
+
+@while $x < 52 {
+  .fs-#{$x} {
+    font-size: $x + px;
+  }
+
+  @media (min-width: 576px) {
+    .fs-sm-#{$x} {
+      font-size: $x + px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .fs-md-#{$x} {
+      font-size: $x + px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .fs-lg-#{$x} {
+      font-size: $x + px;
+    }
+  }
+
+  $x: $x + 2;
+}

@@ -1,0 +1,60 @@
+// --- position --- top --- bottom --- left --- right
+
+// position
+
+.position-static {
+  position: static !important;
+}
+.relative {
+  position: relative !important;
+}
+.absolute {
+  position: absolute !important;
+}
+.position-fixed {
+  position: fixed !important;
+}
+.position-sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+// top
+.top-0 {
+  top: 0 !important;
+}
+.top-50 {
+  top: 50% !important;
+}
+.top-100 {
+  top: 100% !important;
+}
+// bottom
+.bottom-0 {
+    bottom: 0 !important;
+  }
+  .bottom-50 {
+    bottom: 50% !important;
+  }
+  .bottom-100 {
+    bottom: 100% !important;
+  }
+//   left
+  .start-0 {
+    left: 0 !important;
+  }
+  .start-50 {
+    left: 50% !important;
+  }
+  .start-100 {
+    left: 100% !important;
+  }
+//   right
+  .end-0 {
+    right: 0 !important;
+  }
+  .end-50 {
+    right: 50% !important;
+  }
+  .end-100 {
+    right: 100% !important;
+  }

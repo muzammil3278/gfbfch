@@ -1,0 +1,52 @@
+// padding
+$x: 2;
+
+@while $x < 52 {
+  .pt-#{$x} {
+    padding-top: $x + px;
+  }
+
+  .pb-#{$x} {
+    padding-bottom: $x + px;
+  }
+
+  .pl-#{$x} {
+    padding-left: $x + px;
+  }
+
+  .pr-#{$x} {
+    padding-right: $x + px;
+  }
+
+  $x: $x + 2;
+}
+
+.p-auto {
+  padding: auto !important;
+}
+.px-auto {
+  padding-right: auto !important;
+  padding-left: auto !important;
+}
+.py-auto {
+  padding-top: auto !important;
+  padding-bottom: auto !important;
+}
+.pt-auto {
+  padding-top: auto !important;
+}
+.pr-auto {
+  padding-right: auto !important;
+}
+.pt-60 {padding-top: 60px !important;}
+.pt-70 {padding-top: 70px !important;}
+.pt-80 {padding-top: 80px !important;}
+.pt-90 {padding-top: 90px !important;}
+// small
+@media (min-width: 576px) {}
+// ipad
+@media (min-width: 768px) {}
+// laptop
+@media (min-width: 992px) {}
+// pc
+@media (min-width: 1200px) {}

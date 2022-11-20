@@ -1,0 +1,51 @@
+// margin
+$x: 2;
+
+@while $x < 60 {
+  .mt-#{$x} {
+    margin-top: $x + px;
+  }
+
+  .mb-#{$x} {
+    margin-bottom: $x + px;
+  }
+
+  .ml-#{$x} {
+    margin-left: $x + px;
+  }
+
+  .mr-#{$x} {
+    margin-right: $x + px;
+  }
+
+  $x: $x + 2;
+}
+
+.m-auto {
+  margin: auto !important;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.mt-auto {
+  margin-top: auto !important;
+}
+.mr-auto {
+  margin-right: auto !important;
+}
+.mt-100{
+margin-top:100px;
+}
+// small
+@media (min-width: 576px) {}
+// ipad
+@media (min-width: 768px) {}
+// laptop
+@media (min-width: 992px) {}
+// pc
+@media (min-width: 1200px) {}

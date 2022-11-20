@@ -1,0 +1,17 @@
+@media (min-width: 376px) {
+  .t-y-s-200 {
+    transform: translateY(20px);
+  }
+}
+
+@media (min-width: 768px) {
+  .t-y-m-200 {
+    transform: translateY(50px);
+  }
+}
+
+@media (min-width: 992px) {
+  .t-y-lg-200 {
+    transform: translateY(200px);
+  }
+}
