@@ -22,8 +22,7 @@ function aboutcontent() {
           Pattern (with reference to the ghost showing Scrooge some different
           futures)
         </p>
-      </div>
-      <div className="address">
+        
         <ul>
           <li className="mb-8">
             <span className="mr-14 text-icon">
@@ -50,8 +49,8 @@ function aboutcontent() {
             <sapn className="text-gray">Toba Tek Singh (Punjab), Pakistan</sapn>
           </li>
         </ul>
-      </div>
       <Social />
+      </div>
     </div>
   );
 }

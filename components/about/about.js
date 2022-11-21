@@ -3,7 +3,6 @@ import React from "react";
 import Aboutimage from "./comp/left/aboutimg";
 import Aboutcontent from "./comp/right/aboutcontent";
 // second
-import Counter from "./comp2/counter";
 import Left from "./comp2/left";
 import Right from "./comp2/right";
 
@@ -25,7 +24,6 @@ export default function about() {
         <div className="row">
           <div className="col-lg-6">
             <Left />
-            <Counter />
           </div>
           <div className="col-lg-6">
             <Right />

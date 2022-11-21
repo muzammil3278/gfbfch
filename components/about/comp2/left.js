@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Counter from "./counter";
 
 export default function left() {
   return (
@@ -17,6 +18,8 @@ export default function left() {
       <Link href="/" className="main-btn">
         Hire Me
       </Link>
+      
+      <Counter />
     </>
   );
 }
