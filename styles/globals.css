@@ -7,6 +7,9 @@ body {
   background-color: #f3f6fd !important;
   overflow-x: hidden;
 }
+.t-y-200 {
+  transform: translateY(200px);
+}
 .image {
   object-fit: contain;
   width: 100% !important;

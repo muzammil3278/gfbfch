@@ -10,7 +10,7 @@ export default function index() {
     <div className="hero ">
       <div className="container">
         <div className="row align-item-center ">
-          <div className="col-lg-6 col-md-5 t-y-200 t-y-lg-200 t-y-m-200 t-y-s-200">
+          <div className="col-lg-6 col-md-5 t-y-200">
             <div className="hero-left">
               <span>HEY THERE !</span>
               <h2 className="mt-20 fs-lg-50 fw-500 mb-20">
@@ -34,7 +34,7 @@ export default function index() {
               </Link>
             </div>
           </div>
-          <div className="col-lg-6 col-md-7 mt-50 d-sm-1">
+          <div className="col-lg-6 col-md-7 mt-50 d-lg-block d-md-none d-sm-none d-sx-none">
             <Image
               src={man}
               alt=""
