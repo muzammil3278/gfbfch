@@ -13,7 +13,7 @@ export default function index() {
           <div className="col-lg-6 col-md-5 t-y-200">
             <div className="hero-left">
               <span>HEY THERE !</span>
-              <h2 className="mt-20 fs-lg-50 fw-500 mb-20">
+              <h2 className="mt-20 fs-40 fw-500 mb-20">
                 I AM MUHAMMAD MUZAMMIL SAFDAR
               </h2>
               <div className="type">
