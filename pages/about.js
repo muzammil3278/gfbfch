@@ -9,7 +9,7 @@ export default function about() {
   return (
     <>
     
-    <Navbar />
+    {/* <Navbar /> */}
       <About />
       <Feedback /> 
       <Footer />

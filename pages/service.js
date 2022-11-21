@@ -10,7 +10,7 @@ export default function service() {
   return (
     <>
     
-    <Navbar />
+    {/* <Navbar /> */}
       <Service />
       <Feedback />
       <Footer />

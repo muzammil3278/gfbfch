@@ -8,7 +8,7 @@ import Feedback from "../components/feedback";
 export default function portfolio() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Project />
       <Feedback />
       <Footer />

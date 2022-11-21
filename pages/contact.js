@@ -7,7 +7,7 @@ export default function contact() {
   return (
     <>
     
-    <Navbar />
+    {/* <Navbar /> */}
       <Footer />
     </>
   );
