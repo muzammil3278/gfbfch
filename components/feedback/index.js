@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-
-                <Image src="/personal.jpg" alt="" />
+import image from '../../public/personal.jpg'
+import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -52,7 +52,7 @@ export default function index() {
           <div class="feedback ml-20 mr-20 mt-50 mb-50">
             <div class="top">
               <div class="img">
-                <Image src="/personal.jpg" alt="" />
+                <Image src={image} alt="" />
               </div>
               <div class="comment ml-20">
                 <h2 className="fs-18 text-primary">a</h2>
@@ -70,7 +70,7 @@ export default function index() {
           <div class="feedback ml-20 mr-20 mt-50 mb-50">
             <div class="top">
               <div class="img">
-                <Image src="/personal.jpg" alt="" />
+                <Image src={image} alt="" />
               </div>
               <div class="comment ml-20">
                 <h2 className="fs-18 text-primary">b</h2>
@@ -88,7 +88,7 @@ export default function index() {
           <div class="feedback ml-20 mr-20 mt-50 mb-50">
             <div class="top">
               <div class="img">
-                <Image src="/personal.jpg" alt="" />
+                <Image src={image} alt="" />
               </div>
               <div class="comment ml-20">
                 <h2 className="fs-18 text-primary">c</h2>
@@ -106,7 +106,7 @@ export default function index() {
           <div class="feedback ml-20 mr-20 mt-50 mb-50">
             <div class="top">
               <div class="img">
-                <Image src="/personal.jpg" alt="" />
+                <Image src={image} alt="" />
               </div>
               <div class="comment ml-20">
                 <h2 className="fs-18 text-primary">d</h2>

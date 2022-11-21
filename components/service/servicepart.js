@@ -1,5 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import web from '../../public/svg/web.svg';
+import designer from '../../public/svg/designer.svg';
+import vedio from '../../public/svg/vedio.svg';
+import micro from '../../public/svg/microsoft.svg';
+
 
 export default function servicepart() {
   return (
@@ -8,7 +13,7 @@ export default function servicepart() {
         <div className="col-lg-6">
           <div class="service-item pt-24 pb-24 pl-30 pr-30 mt-20 mb-30 text-center">
             <i className="fs-50 mb-20 d-block">
-              <Image src="/svg/web.svg" height={50} width={50} />
+              <Image src={web} height={50} width={50} alt="web"/>
             </i>
             <h4 className="fs-20">Web Development</h4>
             <p>
@@ -21,7 +26,7 @@ export default function servicepart() {
         <div className="col-lg-6">
           <div class="service-item pt-24 pb-24 pl-30 pr-30 mt-20 mb-30 text-center">
             <i className="fs-50 mb-20 d-block">
-              <Image src="/svg/designer.svg" height={50} width={50} />
+              <Image src={designer} height={50} width={50} alt="designer"/>
             </i>
             <h4 className="fs-20">Designer</h4>
             <p>
@@ -34,7 +39,7 @@ export default function servicepart() {
         <div className="col-lg-6">
           <div class="service-item pt-24 pb-24 pl-30 mt-20 pr-30 mb-30 text-center">
             <i className="fs-50 mb-20 d-block">
-              <Image src="/svg/vedio.svg" height={50} width={50} />
+              <Image src={vedio} height={50} width={50} alt="vedio" />
             </i>
             <h4 className="fs-20">Vedio Editing</h4>
             <p>
@@ -47,7 +52,7 @@ export default function servicepart() {
         <div className="col-lg-6">
           <div class="service-item pt-24 pb-24 pl-30 mt-20 pr-30 mb-30 text-center">
             <i className="fs-50 mb-20 d-block">
-              <Image src="/svg/microsoft.svg" height={50} width={50} />
+              <Image src={micro} height={50} width={50} alt="microsoft"/>
             </i>
             <h4 className="fs-20">MS Office</h4>
             <p>

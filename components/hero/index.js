@@ -3,6 +3,7 @@ import Social from "../about/comp/right/social";
 import Typewriter from "typewriter-effect";
 import Link from 'next/link'
 import Image from "next/image";
+import man from '../../public/man.webp'
 
 export default function index() {
   return (
@@ -35,8 +36,10 @@ export default function index() {
           </div>
           <div className="col-lg-6 col-md-7 mt-50 d-sm-1">
             <Image
-              src="https://preview.colorlib.com/theme/breed2/img/banner/home-right.png.webp"
+              src={man}
               alt=""
+              
+      layout="fill"
             />
           </div>
         </div>
