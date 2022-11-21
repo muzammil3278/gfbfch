@@ -11,7 +11,7 @@ export default function index () {
             <div className='col-lg-12 '>
             <div className='footer-inner justify-content-center align-items-center text-center'>
                 <div className='logo text-center'>
-                    <Image src="/logo.png" height={100} width={200} />
+                    <Image src="/logo.png" height={100} width={200} alt="logo" />
                 </div>
                 <div className='menu d-flex justify-content-center'>
                     <ul className='d-flex text-white'>
