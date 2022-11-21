@@ -3,7 +3,7 @@ import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 export default function social() {
   return (
-    <div className="social-link">
+    <div className="social-link mt-20">
       <ul className="d-flex">
         <li className="lh-40 w-40 br-5 social-bg fs-16 text-center text-facebook">
           <BsFacebook />

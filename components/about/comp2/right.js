@@ -16,13 +16,13 @@ export default function right() {
         <div class="skill-item mb-20">
           <h4 className="fs-16 fw-500">CSS</h4>
           <div class="progress">
-            <span className="animation-2" data-label="50%"></span>
+            <span className="animation-2" data-label="70%"></span>
           </div>
         </div>
         <div class="skill-item mb-20">
           <h4 className="fs-16 fw-500">Javascript</h4>
           <div class="progress">
-            <span className="animation-3" data-label="25%"></span>
+            <span className="animation-3" data-label="50%"></span>
           </div>
         </div>
         <div class="skill-item mb-20">

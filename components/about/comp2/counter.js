@@ -3,8 +3,8 @@ import CountUp from "react-countup";
 
 export default function counter() {
   return (
-    <div>
-      <ul className="d-flex mt-26 w-100">
+    <>
+      <ul className="d-flex mt-16 mb-16 w-100">
         <li class="d-flex flex-column text-center pt-20 pb-20 pl-10 pr-10 bg-light-gray mr-10 br-5">
           <span className="fw-bolder fs-26 text-light-blue">
             <CountUp start={1} end={5} duration={2.75} />
@@ -24,6 +24,6 @@ export default function counter() {
           <span>Total Hard Worker</span>
         </li>
       </ul>
-    </div>
+    </>
   );
 }

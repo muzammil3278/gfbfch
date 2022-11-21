@@ -6,10 +6,12 @@ import Aboutcontent from "./comp/right/aboutcontent";
 import Left from "./comp2/left";
 import Right from "./comp2/right";
 
+import Counter from "./comp2/counter";
+
 export default function about() {
   return (
     <>
-      <div class="container pt-70 pb-50">
+      <div class="container pt-50 pb-50">
         <div class="row">
           <div class="col-lg-5">
             <Aboutimage />
@@ -20,10 +22,11 @@ export default function about() {
         </div>
       </div>
 
-      <div className="container  pt-80 pb-40">
+      <div className="container  pt-50 pb-40">
         <div className="row">
           <div className="col-lg-6">
             <Left />
+            <Counter />
           </div>
           <div className="col-lg-6">
             <Right />
