@@ -3,6 +3,7 @@ import Slider from "react-slick";
 
 import Link from "next/link";
 import Image from "next/image";
+import member from '../../public/personal.jpg'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -59,7 +60,7 @@ export default function index() {
               <div class="project">
                 <div class="img">
                   <Image
-                    src="/personal.jpg"
+                    src={member}
                     class="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -80,7 +81,7 @@ export default function index() {
               <div class="project">
                 <div class="img">
                   <Image
-                    src="/personal.jpg"
+                    src={member}
                     class="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -101,7 +102,7 @@ export default function index() {
               <div class="project">
                 <div class="img">
                   <Image
-                    src="/personal.jpg"
+                    src={member}
                     class="img-fluid"
                     alt="Colorlib Template"
                   />
@@ -122,7 +123,7 @@ export default function index() {
               <div class="project">
                 <div class="img">
                   <Image
-                    src="/personal.jpg"
+                    src={member}
                     class="img-fluid"
                     alt="Colorlib Template"
                   />
