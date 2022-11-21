@@ -1,5 +1,6 @@
 import React from "react";
-import { BsFacebook } from "react-icons/bs";
+import Image from "next/image";
+
 export default function servicepart() {
   return (
     <div className="container service">
@@ -7,7 +8,7 @@ export default function servicepart() {
         <div className="col-lg-6">
           <div class="service-item pt-24 pb-24 pl-30 pr-30 mt-20 mb-30 text-center">
             <i className="fs-50 mb-20 d-block">
-              <img src="/svg/web.svg" height={50} width={50} />
+              <Image src="/svg/web.svg" height={50} width={50} />
             </i>
             <h4 className="fs-20">Web Development</h4>
             <p>
@@ -20,7 +21,7 @@ export default function servicepart() {
         <div className="col-lg-6">
           <div class="service-item pt-24 pb-24 pl-30 pr-30 mt-20 mb-30 text-center">
             <i className="fs-50 mb-20 d-block">
-              <img src="/svg/designer.svg" height={50} width={50} />
+              <Image src="/svg/designer.svg" height={50} width={50} />
             </i>
             <h4 className="fs-20">Designer</h4>
             <p>
@@ -33,7 +34,7 @@ export default function servicepart() {
         <div className="col-lg-6">
           <div class="service-item pt-24 pb-24 pl-30 mt-20 pr-30 mb-30 text-center">
             <i className="fs-50 mb-20 d-block">
-              <img src="/svg/vedio.svg" height={50} width={50} />
+              <Image src="/svg/vedio.svg" height={50} width={50} />
             </i>
             <h4 className="fs-20">Vedio Editing</h4>
             <p>
@@ -46,7 +47,7 @@ export default function servicepart() {
         <div className="col-lg-6">
           <div class="service-item pt-24 pb-24 pl-30 mt-20 pr-30 mb-30 text-center">
             <i className="fs-50 mb-20 d-block">
-              <img src="/svg/microsoft.svg" height={50} width={50} />
+              <Image src="/svg/microsoft.svg" height={50} width={50} />
             </i>
             <h4 className="fs-20">MS Office</h4>
             <p>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function left() {
   return (
@@ -10,12 +11,12 @@ export default function left() {
         why it’s crucial that, as women, our behavior on the job is beyond
         reproach. inappropriate behavior is often laughed.
       </p>
-      <a href="/" className="main-btn mr-10">
+      <Link href="/" className="main-btn mr-10">
         Download CV
-      </a>
-      <a href="/" className="main-btn">
+      </Link>
+      <Link href="/" className="main-btn">
         Hire Me
-      </a>
+      </Link>
     </>
   );
 }

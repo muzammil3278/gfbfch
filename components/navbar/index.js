@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function index() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -10,7 +11,7 @@ export default function index() {
       <nav class="navbar pt-8 pb-8 social-bg relative">
         <div class="container d-flex justify-content-between">
           <Link class="pt-8 fs-24 fw-700" href="/">
-            <img src="/logo.png" height={50} width={150} />
+            <Image src="/logo.png" height={50} width={150} />
           </Link>
           <div className="menu d-lg-block d-md-none d-sm-none d-sx-none">
             <ul class="d-xl-flex d-lg-flex">

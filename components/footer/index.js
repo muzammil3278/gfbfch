@@ -1,6 +1,7 @@
 import React from 'react'
 import Social from '../about/comp/right/social'
 import Link from 'next/link'
+import Image from "next/image";
 
 export default function index () {
   return (
@@ -10,7 +11,7 @@ export default function index () {
             <div className='col-lg-12 '>
             <div className='footer-inner justify-content-center align-items-center text-center'>
                 <div className='logo text-center'>
-                    <img src="/logo.png" height={100} width={200} />
+                    <Image src="/logo.png" height={100} width={200} />
                 </div>
                 <div className='menu d-flex justify-content-center'>
                     <ul className='d-flex text-white'>

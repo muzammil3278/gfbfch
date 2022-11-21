@@ -1,6 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 
+import Link from "next/link";
+import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -56,14 +58,14 @@ export default function index() {
             <div class="item">
               <div class="project">
                 <div class="img">
-                  <img
+                  <Image
                     src="/personal.jpg"
                     class="img-fluid"
                     alt="Colorlib Template"
                   />
                   <div class="text px-4">
                     <h3>
-                      <a href="#">Work Name</a>
+                      <Link href="#">Work Name</Link>
                     </h3>
                     <span>Web Design</span>
                   </div>
@@ -77,14 +79,14 @@ export default function index() {
             <div class="item">
               <div class="project">
                 <div class="img">
-                  <img
+                  <Image
                     src="/personal.jpg"
                     class="img-fluid"
                     alt="Colorlib Template"
                   />
                   <div class="text px-4">
                     <h3>
-                      <a href="#">Work Name</a>
+                      <Link href="#">Work Name</Link>
                     </h3>
                     <span>Web Design</span>
                   </div>
@@ -98,14 +100,14 @@ export default function index() {
             <div class="item">
               <div class="project">
                 <div class="img">
-                  <img
+                  <Image
                     src="/personal.jpg"
                     class="img-fluid"
                     alt="Colorlib Template"
                   />
                   <div class="text px-4">
                     <h3>
-                      <a href="#">Work Name</a>
+                      <Link href="#">Work Name</Link>
                     </h3>
                     <span>Web Design</span>
                   </div>
@@ -119,14 +121,14 @@ export default function index() {
             <div class="item">
               <div class="project">
                 <div class="img">
-                  <img
+                  <Image
                     src="/personal.jpg"
                     class="img-fluid"
                     alt="Colorlib Template"
                   />
                   <div class="text pl-10 pr-10">
                     <h3>
-                      <a href="#">Work Name</a>
+                      <Link href="#">Work Name</Link>
                     </h3>
                     <span>Web Design</span>
                   </div>

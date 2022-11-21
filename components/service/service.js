@@ -1,6 +1,8 @@
 import React from "react";
 import Servicepart from "./servicepart";
 
+import Link from "next/link";
+
 export default function service() {
   return (
     <div className="container pt-50 pb-40">
@@ -12,9 +14,8 @@ export default function service() {
         </div>
         </div>
         
-        {/* <a href="" className="main-btn d-sm-none">View all Services</a> */}
         <div className="col-lg-8 col-md-12"><Servicepart />
-        <a href="" className="main-btn ">View all Services</a>
+        <Link href="/service" className="main-btn ">View all Services</Link>
       
       </div>
       </div>

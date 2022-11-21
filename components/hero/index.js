@@ -1,6 +1,8 @@
 import React from "react";
 import Social from "../about/comp/right/social";
 import Typewriter from "typewriter-effect";
+import Link from 'next/link'
+import Image from "next/image";
 
 export default function index() {
   return (
@@ -26,13 +28,13 @@ export default function index() {
               </div>
               <Social />
 
-              <a href="/" className="main-btn">
+              <Link href="/" className="main-btn">
                 See My Work
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-6 col-md-7 mt-50 d-sm-1">
-            <img
+            <Image
               src="https://preview.colorlib.com/theme/breed2/img/banner/home-right.png.webp"
               alt=""
             />
